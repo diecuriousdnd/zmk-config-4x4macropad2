@@ -57,10 +57,10 @@
 
         default_layer {
             bindings = <
-                &kp N7  &kp N8  &kp N9  &kp R
-                &kp N4  &kp N5  &kp N6  &kp F
-                &kp N1  &kp N2  &kp N3  &kp M
-                &kp N0  &kp G  &kp P  &kp N
+                &kp N7  &kp N8   &kp N9   &kp BSPC
+                &kp N4  &kp N5   &kp N6   &mt DIVIDE MINUS
+                &kp N1  &kp N2   &kp N3   &mt MULTIPLY PLUS
+                &kp N0  &kp DOT  &kp TAB  &kp RET
             >;
         };
 
