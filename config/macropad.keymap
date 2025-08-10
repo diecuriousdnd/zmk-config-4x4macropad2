@@ -67,10 +67,10 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-                &trans     &trans     &trans      &trans          &trans       &trans           &kp HOME       &kp UP &kp PG_UP  &trans
-                &trans     &trans     &trans      &trans          &trans       &trans           &kp LEFT       &kp DOWN &kp RIGHT   &trans
-                           &trans     &trans      &trans                                        &kp END        &trans   &kp PG_DN
-                                                  &trans          &trans       &kp ESC          &kp DEL
+                &trans     &trans     &trans      &trans
+                &trans     &trans     &trans      &trans
+                &trans     &trans     &trans      &trans
+                &trans     &trans     &trans      &trans
             >;
         };
 
