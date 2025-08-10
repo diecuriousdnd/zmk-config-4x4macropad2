@@ -68,8 +68,8 @@
             display-name = "Nav";
             bindings = <
                 &trans     &trans     &trans      &trans
-                &kp HOME   &kp UP     &kp END     &kp DIVIDE
-                &kp LEFT   &kp DOWN   &kp RIGHT   &kp MULTIPLY
+                &kp HOME   &kp UP     &kp END     &kp SLASH
+                &kp LEFT   &kp DOWN   &kp RIGHT   &kp STAR
                 &trans     &trans     &trans      &trans
             >;
         };
