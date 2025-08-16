@@ -77,10 +77,10 @@
         num_layer {
             display-name = "Num";
             bindings = <
-                &trans   &trans   &BT_CLR   &trans
                 &trans   &trans   &trans   &trans
                 &trans   &trans   &trans   &trans
                 &trans   &trans   &trans   &trans
+                &bootloader   &sys_reset   &trans   &trans
             >;
         };
 
