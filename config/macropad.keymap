@@ -58,8 +58,8 @@
         default_layer {
             bindings = <
                 &kp N7  &kp N8   &kp N9   &kp BSPC
-                &kp N4  &kp N5   &kp N6   &kp MINUS
-                &kp N1  &kp N2   &kp N3   &kp PLUS
+                &kp N4  &kp N5   &kp N6   &mt SLASH MINUS
+                &kp N1  &kp N2   &kp N3   &mt STAR PLUS
                 &kp N0  &kp DOT  &kp TAB  &lt 1 RET
             >;
         };
@@ -67,9 +67,9 @@
         nav_layer {
             display-name = "Nav";
             bindings = <
-                &mo 2     &trans     &trans      &trans
-                &kp HOME   &kp UP     &kp END     &kp SLASH
-                &kp LEFT   &kp DOWN   &kp RIGHT   &kp STAR
+                &mo 2      &trans     &trans      &trans
+                &kp HOME   &kp UP     &kp END     &trans
+                &kp LEFT   &kp DOWN   &kp RIGHT   &trans
                 &trans     &trans     &trans      &trans
             >;
         };
